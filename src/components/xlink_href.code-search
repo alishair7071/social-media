@@ -1,0 +1,34 @@
+# Query: xlink:href
+# ContextLines: 1
+
+7 results - 2 files
+
+Projects\SocialMedia\social-media\src\components\Header.jsx:
+   9          <aHref="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+  10:           <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlinkHref="#bootstrap"></use></svg>
+  11          </a>
+
+Projects\SocialMedia\social-media\src\components\SideBar.jsx:
+   7      <aHref="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+   8:       <svg class="bi pe-none me-2" width="40" height="32"><use xlinHref="#bootstrap"></use></svg>
+   9        <span class="fs-4">Sidebar</span>
+
+  14          <aHref="#" class="nav-link active" aria-current="page">
+  15:           <svg class="bi pe-none me-2" width="16" height="16"><use xlinkHref="#home"></use></svg>
+  16            Home
+
+  20          <aHref="#" class="nav-link text-white">
+  21:           <svg class="bi pe-none me-2" width="16" height="16"><use xlinkHref="#speedometer2"></use></svg>
+  22            Dashboard
+
+  26          <aHref="#" class="nav-link text-white">
+  27:           <svg class="bi pe-none me-2" width="16" height="16"><use xlinkHref="#table"></use></svg>
+  28            Orders
+
+  32          <aHref="#" class="nav-link text-white">
+  33:           <svg class="bi pe-none me-2" width="16" height="16"><use xlinkHref="#grid"></use></svg>
+  34            Products
+
+  38          <aHref="#" class="nav-link text-white">
+  39:           <svg class="bi pe-none me-2" width="16" height="16"><use xlinkHref="#people-circle"></use></svg>
+  40            Customers

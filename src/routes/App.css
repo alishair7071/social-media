@@ -1,0 +1,44 @@
+
+
+.app-container{
+
+    display: flex;
+
+}
+
+.header-footer-container{
+
+    margin-left: 0.4vw;
+  width: 100%;
+}
+
+.side-bar{
+    height: 100vh;
+}
+
+.post-list-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+}
+
+.create-post-container{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.form-container{
+    width: 80%;
+}
+
+.welcome-msg{
+    display: flex;
+    flex-direction: column;
+}
