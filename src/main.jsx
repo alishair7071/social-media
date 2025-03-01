@@ -5,7 +5,7 @@ import { createBrowserRouter, createHashRouter, RouterProvider } from "react-rou
 import CreatePost from './components/CreatePost.jsx';
 import PostList from './components/PostList.jsx';
 
-const router = createHashRouteruter(
+const router = createHashRouter(
   [
     { path: "/",
        element: <App/>,
